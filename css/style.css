@@ -1,0 +1,230 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+    height: 50px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: #212121;
+    z-index: 2;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px 11px 71px;
+    margin: 0;
+    list-style-type: none;
+    
+}
+
+.menu .menu_link {
+    font-weight: 100;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    
+}
+    
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 46px;
+    
+}
+
+.subheader {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 87px;
+    background: rgba(0,0,0, .6)
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 19px;
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    opacity: 0.5;
+    font-weight: 100;
+    font-size: 13px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+}
+
+.subheader .subheader_call {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 17px;
+    text-align: right;
+    font-family: 'Roboto';
+}
+
+.subheader .subheader_phon {
+    display: block;
+    margin-top: 8px;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right;
+    line-height: 12px;
+}
+    
+.subheader .subheader_btn {
+    margin-top: 18px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    font-family: 'Roboto';
+}
+
+.promo {
+    min-height: 714px;
+    background: url(../img/bg/one_bg/uber_bg.png) center center/cover no-repeat;
+    padding: 150px 0 185px 0;
+}
+
+.promo .promo_header {
+    color: #FFFFFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.promo .promo_subheader {
+    color: #FFFFFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 23px;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.promo .promo_descr {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.promo .promo_btn {
+    margin: 115px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    display: block;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.two {
+    padding: 18px 0 64px;
+}
+
+.label {
+    margin: 0 auto;
+    height: 24px;
+    width: 112px;
+    padding: 5px 12px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.title {
+    margin-bottom: 0;
+    margin-top: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.two .two_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.two .two_block .two_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.two .two_block .two_descr {
+    width: 343px;
+}
+
+.two .two_block .two_descr .two_subtitle {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+
+.two .two_block .two_descr .two_text {
+    font-family: 'Roboto';
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
